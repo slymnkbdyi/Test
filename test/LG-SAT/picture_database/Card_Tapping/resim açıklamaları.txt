@@ -1,0 +1,9 @@
+C1 -> Kartýnýz bu hatta geçerli deðildir
+C2 -> Kart parametreleri ile cihaz parametreleri uyumsuz
+C3 -> Baþarýlý Giriþ
+C4 -> Hatalý Kart
+C5 -> Geçersiz zaman dilimi
+C6 -> Baþarýlý Giriþ (70dk lýk kart)
+C7 -> Baþarýlý Giriþ (SVT kart)
+C8 -> Yetersiz Bakiye
+C9 -> Baþarýlý Çýkýþ

@@ -1,0 +1,136 @@
+﻿====================================================================================================================================================================================
+Otobüs Validatörleri (Kernel 2.4 ekranda 4 dikdörtgen ve bir tanesinde kentkart yazar)
+====================================================================================================================================================================================
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+İlk İmaj Atma (KentKart programı yüklü olanlara)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.SKP (Control Panel)'den 3 ve Tamam tuşları ile cihazın GPRS ip'si tespit edilir
+
+2.Tespit edilen ip çağrı merkezine bildirlir
+
+3.Çağrı merkezinden cihaza script gönderilir ve çağrı merkezinden onay beklenir. 
+  Olumsuz cevap halinde 1, 2 ve 3 nolu adımlar iki kez daha tekarlanır. 
+  Olmadığı takdirde validatör arızalı olarak işaretlenir ve onarım merkezine teslim edilir.
+
+4.Cihaz kapatılarak daha önceden otobüsler için hazırlanmış olan en güncel flash SKT-3 konnektörüne USB kablo ile bağlanar.
+
+5.Cihaza açılır, kentkart ekranından sonra installing ekranı açılır. 
+	5.a.Installing ekranının açılmaması durumunda aşağıdaki adımlar izlenir;
+		5.a.1.Cihaz kapatılır
+		5.a.2.SKP(ControlPanel) yuvasından sökülür.
+		5.a.3.Daha önceden hazırlanmış olan çift girişli USB kablosunun ince kablolu(6pinli) olanı SKT-2'ye kalın kablolu(8pinli) olanı SKT-3'e takılır.
+		5.a.4.Cihaza açılır, kent kart ekranından sonra installing ekranı açılır.
+
+6.Installing işlemi tamamlanıp ekranda SUCCESS yazısı ekranda görülene kadar beklenir.
+
+7.SUCCESS ekranı geldikten sonra cihaz kapatılır.
+
+8.SKT-3'e bağlanan kablo çıkarılır. (5.a.3. maddesindeki kablo takıldı ise SKT-2'deki kablo da çıkarılır ve SKP kablosu SKT-2 konnektörüne takılr)
+
+9.Cihaz açılır ve sistemin açılması beklenir.
+
+10.Cihaza SKP'den sırasıyla 1 ve F1 tuşlarına basılarak açılan ekrandaki karakterler F2 tuşu ile silinip cihaza daha önceden belirlenmiş olan validatör numarası verilir.
+
+11.SKP cihazında şoför kartı takılarak hat seçilir.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+İmaj yenileme adımları, yani evvelden CardTek programı yüklü olanlar
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Üstte belirlenen adımlar silsilesinin 4. nolu adımdan (dahil) 9. nolu adıma kadar (dahil) olanlar uygulanacaktır
+
+
+====================================================================================================================================================================================
+GPRS'li Turnikelere İmaj Atma (IZBAN ve IZDENIZ)(Kernel 2.6 ekranda sağa sola giden mavi oklar)
+====================================================================================================================================================================================
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+İlk İmaj Atma (KentKart programı yüklü olanlara)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.SKP(ControlPanel)'den 3 ve Tamam tuşları ile cihazın GPRS ip'si tespit edilir
+
+2.Tespit edilen ip çağrı merkezine bildirlir
+
+3.Çağrı merkezinden cihaza script gönderilir ve çağrı merkezinden onay beklenir. 
+  Olumsuz cevap halinde 1, 2 ve 3 nolu adımlar iki kez daha tekarlanır. 
+  Olmadığı takdirde validatör arızalı olarak işaretlenir ve onarım merkezine teslim edilir.
+
+4.Cihaz kapatılarak daha önceden otobüsler için hazırlanmış olan en güncel flash SKT-3 konnektörüne USB kablo ile bağlanar.
+
+5.Cihaza açılır, kentkart ekranından sonra installing ekranı açılır.
+	5.a.Installing ekranının açılmaması durumunda aşağıdaki adımlar izlenir;
+		5.a.1.Cihaz kapatılır
+		5.a.2.Daha önceden hazırlanmış olan çift girişli USB kablosunun ince kablolu(6pinli) olanı SKT-2'ye kalın kablolu(8pinli) olanı SKT-3'e takılır.
+		5.a.3.Cihaza açılır, kent kart ekranından sonra installing ekranı açılır.
+
+6.Installing işlemi tamamlanıp ekranda SUCCESS yazısı ekranda görülene kadar beklenir.
+
+7.SUCCESS ekranı geldikten sonra cihaz kapatılır.
+
+8.Turnike flash çıkarılır yerine APP flash takılır.
+
+9.Cihaz açılır ve sistemin açılması beklenir.
+
+10.Cihaza SKP'den sırasıyla 1 ve F1 tuşlarına basılarak açılan ekrandaki karakterler F2 tuşu ile silinip cihaza daha önceden belirlenmiş olan validatör numarası verilir.
+
+11.SKP cihazına herhangi bir kart takılarak turnike validaörüne hat seçilir.
+
+12.Cihaz kaptılıp açılır.
+
+NOT:GPRS ÜZERİNDEN SCRİPT ATILAMAYAN CİHAZLARA AŞAĞIDAKİ ETHERNETLİ YÖNTEMİN UYGULANMASI GEREKİR 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+İmaj yenileme adımları, yani evvelden CardTek programı yüklü olanlar
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Üstte belirlenen adımlar silsilesinin 4. nolu adımdan (dahil) 12. nolu adıma kadar (dahil) olanlar uygulanacaktır
+
+====================================================================================================================================================================================
+Ethernet'li Turnikelere İmaj Atma (Metro ve Bazı IZBAN durakları)(Kernel 2.6 ekranda sağa sola giden mavi oklar)
+====================================================================================================================================================================================
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+İlk İmaj Atma (KentKart programı yüklü olanlara)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.SKP (ControlPanel)'den 3 ve Tamam tuşları ile cihazın Ethernet ip'si tespit edilir
+
+2.PC vasıtası ile turnikelerin her birine script gönderilir (Bu konuda Faik Bey'den yardım alınabilir) ve validatör başındaki personele bilgi verilir.
+
+3.Cihaz kapatılarak daha önecden hazırlanmış olan turnike flash SKT-3 konnektörüne USB kablo ile bağlanar.
+
+4.Cihaza açılır, kentkart ekranından sonra installing ekranı açılır.
+	5.a.Installing ekranının açılmaması durumunda aşağıdaki adımlar izlenir;
+		5.a.1.Cihaz kapatılır
+		5.a.2.Daha önceden hazırlanmış olan çift girişli USB kablosunun ince kablolu(6pinli) olanı SKT-2'ye kalın kablolu(8pinli) olanı SKT-3'e takılır.
+		5.a.3.Cihaza açılır, kent kart ekranından sonra installing ekranı açılır.
+
+5.Installing işlemi tamamlanıp ekranda SUCCESS yazısı ekranda görülene kadar beklenir.
+
+6.SUCCESS ekranı geldikten sonra cihaz kapatılır.
+
+7.Cihaz açılır ve sistemin açılması beklenir.
+
+8.Cihaza SKP'den sırasıyla 1 ve F1 tuşlarına basılarak açılan ekrandaki karakterler F2 tuşu ile silinip cihaza daha önceden belirlenmiş olan validatör numarası verilir.
+
+9.Cihaza SKP'den sırasıyla 2 ve F1 tuşlarına basılarak açılan ekrandan cihaza 1. adımdaki ip adresi verilir.
+
+10.Cihaza SKP'den sırasıyla 3 ve F1 tuşlarına basılarak açılan ekrandan cihaza netmask olarak 255.255.0.0 adresi verilir.
+
+11.SKP cihazına herhangi bir kart takılarak turnike validaörüne hat seçilir.
+
+12.Cihaz kapatılıp açılır.
+
+13. PC'den turnikeye ping atılır
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+İmaj yenileme adımları, yani evvelden CardTek programı yüklü olanlar
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Üstte belirlenen adımlar silsilesinin 4. nolu adımdan (dahil) 13. nolu adıma kadar (dahil) olanlar uygulanacaktır

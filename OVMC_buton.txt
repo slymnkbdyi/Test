@@ -1,0 +1,26 @@
+SEUL İÇİN
+
+08.04.2016 pilot üretimde OVMC için kullanılan buton ayarları
+
+options qt1070 dump=1
+options qt1070 lp=16
+#options qt1070 maxondur=180
+# ovmc v1 20160116 modifiyeli flex pcb btn v1 values
+options qt1070 nthr=6,15,15,15,15,15,6
+options qt1070 ave=8,16,16,16,16,16,0
+options qt1070 di=10,10,10,10,10,10,10
+****************************************************************
+
+
+
+Yeni ayarları 10.04.2016
+
+
+options qt1070 dump=1
+options qt1070 lp=2
+#options qt1070 maxondur=0
+# ovmc v1 20160116 modifiyeli flex pcb btn v1 values
+options qt1070 nthr=100,14,14,12,13,13,6
+options qt1070 ave=32,16,16,16,16,16,0
+options qt1070 di=100,10,10,10,10,10,10
+

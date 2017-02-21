@@ -1,0 +1,457 @@
+Received: from smtp1o.mail.yandex.net ([37.140.190.26])
+	by mxback6o.mail.yandex.net with LMTP id NRY2Tc4f;
+	Sat, 28 May 2016 15:32:07 +0300
+Received: from smtp1o.mail.yandex.net (localhost [127.0.0.1])
+	by smtp1o.mail.yandex.net (Yandex) with ESMTP id 3F8C5DE016E;
+	Sat, 28 May 2016 15:32:07 +0300 (MSK)
+Received: by smtp1o.mail.yandex.net (nwsmtp/Yandex) with ESMTPSA id o14sBpPuLW-W5N4DlIG;
+	Sat, 28 May 2016 15:32:06 +0300
+	(using TLSv1 with cipher ECDHE-RSA-AES128-SHA (128/128 bits))
+	(Client certificate not present)
+X-Yandex-Front: smtp1o.mail.yandex.net
+X-Yandex-TimeMark: 1464438726
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=dtsis.com; s=mail; t=1464438726;
+	bh=CVBByrjhhvKJiS+wRrUNjfoyYgQGdGn/VO9VqHg3M7o=;
+	h=From:To:References:In-Reply-To:Subject:Date:Message-ID:
+	 MIME-Version:Content-Type:X-Mailer:thread-index:Content-Language;
+	b=W+LdXq54W3UkZwcQnhu7iZXyqdIjtjo1MYmIQTvPB1jNyxd/kVS10GFNaBtKl+awO
+	 Vab+XXUiEvnKlzsVIWLwJBuSwh9VsXBOuhn2usAEk401MMwtnwjaSBq/pb0sjhNN7/
+	 1tRpoKldWfVHg0AMrqSxWRqZa9REhX0xOx70nUH8=
+Authentication-Results: smtp1o.mail.yandex.net; dkim=pass header.i=@dtsis.com
+X-Yandex-Spam: 1
+From: "Sunay MUTLU" <sunay@dtsis.com>
+To: <lutfi@dtsis.com>,
+	<suleyman@dtsis.com>,
+	<beytullah@dtsis.com>,
+	=?utf-8?Q?Turker_Mutlug=C3=BCn?= <turker@dtsis.com>,
+	=?utf-8?Q?Mehmet_G=C3=BClen?= <mehmet@dtsis.com>
+References: <001f01d1b752$fbc63fd0$f352bf70$@dtsis.com> <4B73AB98946E514AA35CD30E551F52B801451590578B@MAIL01.corp.lgcns.com>
+In-Reply-To: <4B73AB98946E514AA35CD30E551F52B801451590578B@MAIL01.corp.lgcns.com>
+Subject: FW: usernames
+Date: Sat, 28 May 2016 15:32:04 +0300
+Message-ID: <001201d1b8dc$f2965770$d7c30650$@dtsis.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0013_01D1B8F6.17E711E0"
+X-Mailer: Microsoft Outlook 14.0
+thread-index: AQHxJhqA4PKvbFiAYkbUWr54wLcuNQEnR655n4Yy6DA=
+Content-Language: tr
+Return-Path: sunay@dtsis.com
+X-Yandex-Forward: 65cc64947e87cb0aeff251bba6c22190
+X-Yandex-Forward: 7b9142761c968fdc10eb839730dc9765
+X-Yandex-Forward: 3ddc72af209e2df7f97076bffec2d393
+X-Yandex-Forward: 9357acea92f961a21b14684323791fbd
+X-Yandex-Forward: d9fb111ca7e176f19be8509623f6d6b1
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0013_01D1B8F6.17E711E0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Merhabalar,
+
+=20
+
+A=C5=9Fa=C4=9F=C4=B1da seuldeki test serverlar=C4=B1n=C4=B1n IP leri ve =
+web interfaclerinin access bilgileri var.
+
+=20
+
+=20
+
+From: Jae Euy Kim [mailto:jaeekim@lgcns.com]=20
+Sent: Thursday, May 26, 2016 4:36 PM
+To: Sunay MUTLU
+Subject: RE: usernames
+
+=20
+
+Dear Sunay,
+
+=20
+
+I send the information about SMC  and DMC for development.
+
+=20
+
+DMC
+
+=20
+
+#1. Osy Depot MC
+
+- URL : http://10.77.134. 176
+
+- ID : smartdmc
+
+- PWD : 1111111a   ( 1 * 7 + a )
+
+or
+
+- ID : admin
+
+- PWD : 1111111a   ( 1 * 7 + a )
+
+=20
+
+#2. Tram Depot MC
+
+- URL : http://10.77.134. 171
+
+- ID : smartdmc
+
+- PWD : 1111111a   ( 1 * 7 + a )
+
+or
+
+- ID : admin
+
+- PWD : 1111111a   ( 1 * 7 + a )
+
+=20
+
+----------------------------------------------------------------
+
+SMC
+
+=20
+
+#1. Seoul Metro SMC
+
+- URL : http://10.77.134.162
+
+- ID : smartsmc
+
+- PWD : 1111111a   ( 1 * 7 + a )
+
+or
+
+- ID : admin
+
+- PWD : 1111111a   ( 1 * 7 + a )
+
+=20
+
+#2. Seoul Suburban SMC
+
+- URL : http://10.77.134.156
+
+- ID : smartsmc
+
+- PWD : 1111111a   ( 1 * 7 + a )
+
+or
+
+- ID : admin
+
+- PWD : 1111111a   ( 1 * 7 + a )
+
+=20
+
+=20
+
+Regards,
+
+=20
+
+J, Kim.
+
+=20
+
+From: Sunay MUTLU [mailto:sunay@dtsis.com]=20
+Sent: Thursday, May 26, 2016 10:32 PM
+To: =EA=B9=80=EC=9E=AC=EC=9D=98 =EC=B0=A8=EC=9E=A5 =
+=EA=B5=90=ED=86=B5=EC=82=AC=EC=97=85=EA=B4=80=EB=A6=AC/=ED=92=88=EC=A7=88=
+=ED=8C=80 (jaeekim@lgcns.com, 07075452652)
+Subject: usernames
+
+=20
+
+Dear Jae,
+
+=20
+
+Can you share with me for each server the access name and pass.
+
+=20
+
+DMC (TRAM)                     10.77.134.171
+
+DMC (BUS)                         10.77.134.176
+
+SMC (METRO)                   10.77.134.162
+
+SMC (SUBURBAN)          10.77.134.156
+
+=20
+
+Regards.
+
+=20
+
+=20
+
+=20
+
+
+------=_NextPart_000_0013_01D1B8F6.17E711E0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3DUTF-8">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta name=3DGenerator =
+content=3D"Microsoft Word 14 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Gulim;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Gulim;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@Gulim";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-language:EN-US;}
+span.EmailStyle17
+	{mso-style-type:personal;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DTR link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'color:#1F497D'>Merhabalar,<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'color:#1F497D'>A=C5=9Fa=C4=9F=C4=B1da =
+seuldeki test serverlar=C4=B1n=C4=B1n IP leri ve web interfaclerinin =
+access bilgileri var.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";mso-fareast-l=
+anguage:KO'>From:</span></b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";mso-fareast-l=
+anguage:KO'> Jae Euy Kim [mailto:jaeekim@lgcns.com] <br><b>Sent:</b> =
+Thursday, May 26, 2016 4:36 PM<br><b>To:</b> Sunay =
+MUTLU<br><b>Subject:</b> RE: =
+usernames<o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'color:#1F497D;mso-fareast-language:KO'>Dear =
+Sunay,<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'><o:p>&nbsp;</o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>I send the information =
+about SMC&nbsp; and DMC for development.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'><o:p>&nbsp;</o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>DMC<o:p></o:p></span></p>=
+<p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'><o:p>&nbsp;</o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>#1. Osy Depot =
+MC<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- URL : <a =
+href=3D"http://10.77.134">http://10.77.134</a>. =
+176<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- ID : =
+smartdmc<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- PWD : =
+1111111a&nbsp;&nbsp; ( 1 * 7 + a )<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>or<o:p></o:p></span></p><=
+p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- ID : =
+admin<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- PWD : =
+1111111a&nbsp;&nbsp; ( 1 * 7 + a )<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'><o:p>&nbsp;</o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>#2. Tram Depot =
+MC<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- URL : <a =
+href=3D"http://10.77.134">http://10.77.134</a>. =
+171<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- ID : =
+smartdmc<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- PWD : =
+1111111a&nbsp;&nbsp; ( 1 * 7 + a )<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>or<o:p></o:p></span></p><=
+p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- ID : =
+admin<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- PWD : =
+1111111a&nbsp;&nbsp; ( 1 * 7 + a )<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'><o:p>&nbsp;</o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>-------------------------=
+---------------------------------------<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>SMC<o:p></o:p></span></p>=
+<p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'><o:p>&nbsp;</o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>#1. Seoul Metro =
+SMC<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- URL : <a =
+href=3D"http://10.77.134.162">http://10.77.134.162</a><o:p></o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- ID : =
+smartsmc<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- PWD : =
+1111111a&nbsp;&nbsp; ( 1 * 7 + a )<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>or<o:p></o:p></span></p><=
+p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- ID : =
+admin<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- PWD : =
+1111111a&nbsp;&nbsp; ( 1 * 7 + a )<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'><o:p>&nbsp;</o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>#2. Seoul Suburban =
+SMC<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- URL : <a =
+href=3D"http://10.77.134.156">http://10.77.134.156</a><o:p></o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- ID : =
+smartsmc<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- PWD : =
+1111111a&nbsp;&nbsp; ( 1 * 7 + a )<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>or<o:p></o:p></span></p><=
+p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- ID : =
+admin<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>- PWD : =
+1111111a&nbsp;&nbsp; ( 1 * 7 + a )<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'><o:p>&nbsp;</o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'><o:p>&nbsp;</o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>Regards,<o:p></o:p></span=
+></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'><o:p>&nbsp;</o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D;mso-fareast-language:KO'>J, =
+Kim.<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";mso-fareast-l=
+anguage:KO'>From:</span></b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";mso-fareast-l=
+anguage:KO'> Sunay MUTLU [<a =
+href=3D"mailto:sunay@dtsis.com">mailto:sunay@dtsis.com</a>] =
+<br><b>Sent:</b> Thursday, May 26, 2016 10:32 PM<br><b>To:</b> =
+</span><span lang=3DKO =
+style=3D'font-size:10.0pt;font-family:"Gulim","sans-serif";mso-fareast-la=
+nguage:KO'>=EA=B9=80=EC=9E=AC=EC=9D=98</span><span lang=3DKO =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";mso-fareast-l=
+anguage:KO'> </span><span lang=3DKO =
+style=3D'font-size:10.0pt;font-family:"Gulim","sans-serif";mso-fareast-la=
+nguage:KO'>=EC=B0=A8=EC=9E=A5</span><span lang=3DKO =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";mso-fareast-l=
+anguage:KO'> </span><span lang=3DKO =
+style=3D'font-size:10.0pt;font-family:"Gulim","sans-serif";mso-fareast-la=
+nguage:KO'>=EA=B5=90=ED=86=B5=EC=82=AC=EC=97=85=EA=B4=80=EB=A6=AC</span><=
+span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";mso-fareast-l=
+anguage:KO'>/</span><span lang=3DKO =
+style=3D'font-size:10.0pt;font-family:"Gulim","sans-serif";mso-fareast-la=
+nguage:KO'>=ED=92=88=EC=A7=88=ED=8C=80</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";mso-fareast-l=
+anguage:KO'> (<a =
+href=3D"mailto:jaeekim@lgcns.com">jaeekim@lgcns.com</a>, =
+07075452652)<br><b>Subject:</b> =
+usernames<o:p></o:p></span></p></div></div><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal>Dear =
+Jae,<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal>Can you share with me for each server the access name =
+and pass.<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal>DMC (TRAM) &nbsp;&nbsp;&nbsp; =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp; 10.77.134.171<o:p></o:p></p><p class=3DMsoNormal>DMC =
+(BUS) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp; 10.77.134.176<o:p></o:p></p><p class=3DMsoNormal>SMC =
+(METRO) &nbsp; =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp; 10.77.134.162<o:p></o:p></p><p class=3DMsoNormal>SMC =
+(SUBURBAN) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+10.77.134.156<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal>Regards.<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_0013_01D1B8F6.17E711E0--
+
